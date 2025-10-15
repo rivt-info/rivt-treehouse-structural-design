@@ -1,0 +1,7 @@
+10-10 04:01  rv101-udl-beam   INFO     rivt file : rv101-udl-beam.py
+10-10 04:01  rv101-udl-beam   INFO     rivt file path : C:\git\rivt-simple-report-git
+10-10 04:01  rv101-udl-beam   INFO     rivt backup : C:\git\rivt-simple-report-git\log\rv101-udl-beam.bak
+10-10 04:01  rv101-udl-beam   INFO     Doc start
+10-10 04:01  rv101-udl-beam   INFO     SECTION 1 - type I
+10-10 04:01  rv101-udl-beam   INFO     tag : _[T]
+10-10 04:01  rv101-udl-beam   INFO     command : IMG

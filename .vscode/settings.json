@@ -1,0 +1,364 @@
+// ========================================================================== //
+// top
+{
+    "window.title": "${separator}${activeEditorLong}${separator}${remoteName}$[dirty}",
+    "settings.cycle": [
+        {
+            "id": "explorerSort2", // must be unique
+            "overrideWorkspaceSettings": false,
+            "values": [
+                {
+                    "explorer.sortOrder": "name"
+                },
+                {
+                    "explorer.sortOrder": "type"
+                },
+                {
+                    "explorer.sortOrder": "modified"
+                }
+            ]
+        }
+    ],
+    "files.associations": {
+        "*.py": "python"
+    },
+    "projectManager.git.baseFolders": [
+        "c:\\git"
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "fsdeploy.nodes": [
+        {
+            "source": "C:/git/rivt-tree-house-structural-design-git",
+            "target": "E:/OneDrive/StL-Proj2/2025/rivt-tree-house-structural-design",
+            "include": "**/*.*",
+            "exclude": "",
+            "deleteTargetOnDeploy": true,
+        }
+    ],
+    "actionButtons": {
+        "defaultColor": "#ff0034",
+        "reloadButton": "♻️",
+        "loadNpmCommands": false,
+        "commands": [
+            {
+                "name": "Note",
+                "color": "green",
+                "useVsCodeApi": false,
+                "command": "code note.txt && exit",
+            },
+            {
+                "name": "Setting",
+                "color": "green",
+                "useVsCodeApi": true,
+                "command": "workbench.action.openSettings2",
+            },
+            {
+                "name": "KeyBind",
+                "color": "green",
+                "useVsCodeApi": true,
+                "command": "workbench.action.openGlobalKeybindings",
+            },
+            {
+                "name": "ToggleSpell",
+                "color": "green",
+                "useVsCodeApi": true,
+                "command": "cSpell.toggleEnableSpellChecker",
+            },
+            {
+                "name": "GoTo",
+                "color": "red",
+                "useVsCodeApi": true,
+                "command": "workbench.action.gotoLine",
+            },
+            {
+                "name": "RunCell",
+                "color": "red",
+                "useVsCodeApi": true,
+                "command": "jupyter.runcurrentcell",
+            },
+            {
+                "name": "FoldAll",
+                "color": "orange",
+                "useVsCodeApi": true,
+                "command": "editor.foldLevel2"
+            },
+            {
+                "name": "Unfold",
+                "color": "orange",
+                "useVsCodeApi": true,
+                "command": "editor.unfoldAll"
+            },
+            {
+                "name": "FoldX",
+                "color": "orange",
+                "useVsCodeApi": true,
+                "command": "editor.foldAllExcept"
+            },
+            {
+                "name": "UnFoldX",
+                "color": "orange",
+                "useVsCodeApi": true,
+                "command": "editor.unfoldAllExcept"
+            },
+            {
+                "name": "Recursive",
+                "color": "orange",
+                "useVsCodeApi": true,
+                "command": "editor.unfoldRecursively"
+            },
+            {
+                "name": "ExplorerSort",
+                "color": "yellow",
+                "useVsCodeApi": true,
+                "command": "settings.cycle.explorerSort2"
+            },
+            {
+                "name": "NewFile",
+                "color": "yellow",
+                "useVsCodeApi": true,
+                "command": "ShortcutMenuBar.newFile"
+            }
+        ]
+    },
+    "todohighlight.include": [
+        "**/*.py"
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "todohighlight.defaultStyle": {
+        "color": "grey",
+        "backgroundColor": "editor.background",
+        "border": "none",
+        "isWholeLine": false,
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "rv.R",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.I",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.V",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.T",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.W",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.M",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "\"\"\")",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.S",
+            "color": "#f3ffbd",
+            "isWholeLine": true,
+        },
+        {
+            "text": "| IMG |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| IMG2 |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| TABLE |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| TEXT |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| VALUE |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| DOC |",
+            "color": "#f4a462",
+        },
+        {
+            "text": "| ATTACH |",
+            "color": "#f4a462",
+        },
+        {
+            "text": ":=",
+            "color": "#e76e50",
+        },
+        {
+            "text": "_[T]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[F]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[E]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[C]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[S]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[V]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[Q]]",
+            "color": "#4989a2",
+        },
+    ],
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.scrollback": 5000,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#2a2570",
+        "tab.inactiveBackground": "#606068",
+        "editor.selectionBackground": "#264f78",
+        "editor.selectionHighlightBorder": "#264f78",
+        "editor.lineHighlightBorder": "#34495d",
+        "list.inactiveSelectionBackground": "#213148",
+    },
+    "workbench.editorAssociations": {
+        "git:/**/*.code-snippets": "default",
+        "gitlens:/**/*.code-snippets": "default",
+        "*.svg": "default",
+    },
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.indentSize": "tabSize",
+        "editor.formatOnType": false,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.stickyScroll.enabled": false,
+    },
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.askForKernelRestart": false,
+    "python.analysis.enablePytestSupport": false,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.outline.showCodeCells": true,
+    "notebook.output.textLineLimit": 400,
+    "jupyter.themeMatplotlibPlots": true,
+    "python.terminal.executeInFileDir": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "jupyter.interactiveWindow.cellMarker.decorateCells": "allCells",
+    "insertDateString.format": "MM-DD-YYYY hh:mm:ss",
+    "insertDateString.formatDate": "MM-DD-YYYY",
+    "seito-openfile.notFoundTriggerQuickOpen": true,
+    "seito-openfile.openNewTab": true,
+    "editor.parameterHints.enabled": false,
+    "editor.foldingStrategy": "auto",
+    "editor.tokenColorCustomizations": {
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "string.quoted.multi.python",
+                        "meta.function-call.arguments.python",
+                        "meta.function-call.python",
+                        "meta.member.access.python",
+                        "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#bfc0c0"
+                    }
+                },
+            ]
+        }
+    },
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#3d3d3d"
+        },
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.parameterHints.cycle": false,
+    "editor.hover.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "none",
+    "editor.suggest.showTypeParameters": false,
+    "editor.fontSize": 16,
+    "editor.guides.indentation": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.formatOnPaste": false,
+    "editor.codeLens": true,
+    "ShortcutMenuBar.saveAll": true,
+    "ShortcutMenuBar.beautify": false,
+    "ShortcutMenuBar.showCommands": false,
+    "ShortcutMenuBar.navigateBack": false,
+    "ShortcutMenuBar.navigateForward": false,
+    "ShortcutMenuBar.commentLine": false,
+    "ShortcutMenuBar.toggleWordWrap": true,
+    "ShortcutMenuBar.openFilesList": true,
+    "ShortcutMenuBar.findReplace": false,
+    "ShortcutMenuBar.openSettings": false,
+    "ShortcutMenuBar.newFile": true,
+    "latex-workshop.message.warning.show": false,
+    "accessibility.verbosity.notification": false,
+    "gutterpreview.imagePreviewMaxHeight": 0,
+    "gutterpreview.imagePreviewMaxWidth": 0,
+    "gutterpreview.enableReferenceLookup": true,
+    "gutterpreview.sourceFolder": "",
+    "git.postCommitCommand": "sync",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "cSpell.userWords": [
+        "buildable",
+        "rivt",
+        "autonumber",
+        "Codespace",
+        "rivtcalc",
+        "sympy",
+    ],
+    "cSpell.words": [
+        "asce",
+        "autopep",
+        "docstrings",
+        "noprint",
+        "rivtlib",
+        "stds",
+        "yapf"
+    ],
+}
+// ========================================================================== //
+// bottom
