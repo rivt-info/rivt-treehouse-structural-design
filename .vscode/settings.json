@@ -27,10 +27,12 @@
     ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "fsdeploy.deployOnSave": true,
+    "fsdeploy.deployWorkspaceOnSave": false,
     "fsdeploy.nodes": [
         {
-            "source": "C:/git/rivt-tree-house-structural-design-git",
-            "target": "E:/OneDrive/StL-Proj2/2025/rivt-tree-house-structural-design",
+            "source": "C:/git/rivt-treehouse-structural-design-git",
+            "target": "E:/OneDrive/StL-Proj2/2025/rivt-treehouse-structural-design",
             "include": "**/*.*",
             "exclude": "",
             "deleteTargetOnDeploy": true,

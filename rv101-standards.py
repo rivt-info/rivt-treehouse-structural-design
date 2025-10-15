@@ -6,7 +6,7 @@ rv.M("""Meta Data
     
     rv_authD = {
         "authors": "rholland",
-        "version": "0.7.0",
+        "version": "0.6.1",
         "email": "rod.h.holland@gmail.com",
         "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
         "license": "https://opensource.org/license/mit/",
@@ -20,6 +20,17 @@ rv.M("""Meta Data
     rv_docnameS = "Design Codes"
     
     """)
+
+rv.I("""Summary
+
+    The structural design of several components of a treehouse platform is
+    provided.
+
+
+
+
+    """)
+
 
 rv.I("""Load Combinations and Geometry 
 
